@@ -11,31 +11,65 @@ All the programs take input from the user and display the output on the console.
    File: `count of vowels and consonants.py`  
    - Takes a string from the user  
    - Counts how many vowels and consonants it has  
-   - Prints the counts separately  
+   - Prints the counts separately
 
-2. **Count the Frequency of Each Character**  
+    **Example output:**
+
+    `  Enter a string: hello
+        Reversed string: olleh `
+ 
+ 2. **Count the Frequency of Each Character**  
    File: `count the frequency of each character in a string.py`  
    - Reads a string from the user  
    - Counts how many times each character appears  
-   - Displays the character along with its frequency  
+   - Displays the character along with its frequency
+   
+    **Example output:**
+    
+      ` Enter a string: banana
+         Character frequencies:
+         b : 1
+         a : 3
+         n : 2 `
+     
+
 
 3. **Palindrome Check**  
    File: `palindrome or not.py`  
    - Accepts a number from the user  
    - Checks whether it is a palindrome number  
-   - Prints the result  
+   - Prints the result
 
-4. **Remove Spaces from a String**  
+    **Example output**
+
+    `Enter a string: madam
+      Yes, 'madam' is a palindrome.`
+
+
+5. **Remove Spaces from a String**  
    File: `removing spaces from a string.py`  
    - Takes a sentence or word from the user  
    - Removes all the spaces from it  
-   - Displays the modified string  
+   - Displays the modified string
 
-5. **Reverse a String (without built-in functions)**  
+    **Example output** 
+
+         Enter a string: Python is fun
+         String without spaces: Pythonisfun
+     
+
+7. **Reverse a String (without built-in functions)**  
    File: `reversed string without buit-in function.py`  
    - Takes a string as input  
    - Reverses it manually without using slicing or built-in reverse functions  
    - Shows the reversed string
+   
+    **Example  output**
+   
+        Enter a string: Hello World
+        Number of vowels: 3
+        Number of consonants: 7
+
    - # Python Programs on Numbers
 
 This repository contains simple Python programs to perform basic operations on numbers, such as checking for prime numbers, calculating factorials, generating Fibonacci series, summing digits, and reversing digits.
@@ -63,7 +97,7 @@ This repository contains simple Python programs to perform basic operations on n
    - Example: `123 → 321`
 
 
-Example Output
+**Example Output**
 
 1. Enter a number: 7
  Prime Check: Yes, it's a prime number
